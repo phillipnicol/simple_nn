@@ -2,7 +2,6 @@
 data/
 logs/
 results/
-models/
 cifar-10/
 
 *.zip
