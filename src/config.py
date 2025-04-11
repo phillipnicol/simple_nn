@@ -3,7 +3,7 @@
 class Config:
     def __init__(self):
         self.epochs = 1000
-        self.learning_rate = 0.0005
+        self.learning_rate = 0.0001
         self.log_interval = 100
         self.tensorboard_log_dir = "runs/experiment"  # Added missing attribute
         self.model_save_path = "model.pth"
